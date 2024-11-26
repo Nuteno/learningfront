@@ -19,7 +19,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1280px;
+    width: 1280px;
 }
 
 .header {
@@ -54,6 +54,8 @@
     margin: 0;
     padding: 0;
     background-image: url("../media/firstpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 1000px;
     position: relative;
 }
@@ -139,4 +141,109 @@
 
 .main-container__title {
     margin-top: 70px;
+}
+
+.play {
+display: flex;
+    flex-direction: column;
+}
+
+.play-shading__top {
+    box-sizing: border-box;
+    height: 70px;
+    background-image: url('../media/shadowtop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.play-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.play-content__promo {
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 0 25px;
+}
+
+.play-content__title {
+    margin: 0 32px 13px;
+    color: white;
+}
+
+.play-content__description {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    max-width: 952px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.play-content__description a{
+    text-decoration: none;
+    color: #52BEDC;
+    font-weight: 500;
+}
+
+.play-content__position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.play-content__form {
+    display: flex;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 460px;
+}
+
+.form-content input{
+    all: unset;
+    border-bottom: #777777 solid 1px;
+    margin: 35px 0 0;
+}
+
+.form-content input::placeholder {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.form-dragdrop {
+    background-image: url("../media/dragbackgroung.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 120px;
+    margin: 35px 0;
+}
+.form-dragdrop p {
+    color: white;
+}
+
+.play-content__image {
+    background-repeat: no-repeat;
+}
+
+.form-dragdrop__content {
+    margin: 39px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+
+.form-dragdrop__screen {
+    text-decoration: underline;
+    font-size: 18px;
 }
