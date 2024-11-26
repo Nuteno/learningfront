@@ -247,3 +247,39 @@ display: flex;
     text-decoration: underline;
     font-size: 18px;
 }
+
+.form-button {
+    background-color: #F8F200;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 19px 50px;
+    width: 192px;
+    border: none;
+}
+
+.form-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+
+.form-checkbox input{
+    width: 20px;
+    height: 20px;
+    border: #777777 solid 1px;
+    margin: auto 10px auto 0;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
+
+.form-checkbox input:checked {
+    background-image: url("../media/checked.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
