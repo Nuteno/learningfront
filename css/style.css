@@ -149,7 +149,6 @@ display: flex;
 }
 
 .play-shading__top {
-    box-sizing: border-box;
     height: 70px;
     background-image: url('../media/shadowtop.png');
     background-repeat: no-repeat;
@@ -283,4 +282,142 @@ display: flex;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.play-shading__bottom {
+    height: 70px;
+    background-image: url('../media/shadowbot.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hp {
+    background-color: #F8F200;
+    padding: 70px 0 80px;
+}
+
+.hp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hp-media__additional {
+    display: flex;
+    justify-content: center;
+}
+
+.hp-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 624px;
+}
+
+.hp-content__description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    max-width: 624px;
+}
+
+.hp-content__description--text {
+    margin-bottom: 25px;
+}
+
+.content__description--rich {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.content__description--rich img{
+    margin-right: 10px;
+}
+
+.content__description--button {
+    background-color: black;
+    color: #F8F200;
+    max-width: 194px;
+    text-align: center;
+    padding: 19px 50px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+.buy {
+    background-image: url("../media/buygame.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: black;
+}
+
+.buy-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buy-content {
+    max-width: 624px;
+    margin-top: 70px;
+    background-color: black;
+}
+
+.buy-content__title {
+    color: white;
+}
+
+.rich-title {
+    color: #52BEDC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buy-content__announcement {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 25px;
+}
+
+.announcement-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    margin: 15px 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.announcement-item img{
+    width: 24px;
+    margin-right: 10px;
+}
+
+.platform-title {
+    margin-bottom: 25px;
+}
+
+
+.buy-content__platforms {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*max-width: 319px;*/
+    margin-top: 70px;
+}
+
+.platform-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.platform-item {
+    margin-right: 79px;
+}
+
+.platform-second {
+    margin: 48px 0 50px;
 }
